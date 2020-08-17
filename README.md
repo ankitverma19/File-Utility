@@ -77,7 +77,7 @@ The app defines following CRUD APIs.
 
 ## Documentation
 
-* 	[Postman Collection](https://github.com/AnanthaRajuC/Spring-Boot-Application-Template/blob/master/Spring%20Boot%20Template.postman_collection.json) - offline
+* 	[Postman Collection](https://github.com/ankitverma19/File-Utility/blob/master/DBS-File.postman_collection.json) - offline
 * 	[Swagger](http://localhost:8080/swagger-ui.html) - `http://localhost:8080/swagger-ui.html`- Documentation & Testing
 
 ## packages
