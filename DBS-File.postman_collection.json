@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "9886b739-8883-43bc-80f5-676ed07fcdca",
+		"name": "DBS-File",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get File Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/file?path=/home/sample.txt",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"file"
+					],
+					"query": [
+						{
+							"key": "path",
+							"value": "/home/sample.txt",
+							"description": "Give Windows format if running on windows"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Directory Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/v1/dir?path=/home",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"dir"
+					],
+					"query": [
+						{
+							"key": "path",
+							"value": "/home"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
